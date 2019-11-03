@@ -20,21 +20,21 @@ public class J_UdpServer {
 			dSocket = new DatagramSocket(8000);
 			while(true) {
 				inPacket = new DatagramPacket(inBuffer, inBuffer.length);
-				dSocket.receive(inPacket);
+				dSocket.receive(inPacket); //接受数据报
 				cAddr = inPacket.getAddress();
 				cPort = inPacket.getPort();
 				s = new String(inPacket.getData(), 0, inPacket.getLength());
-				System.out.println("鎺ユ敹鍒板鎴风淇℃伅: " + s);
-				System.out.println("瀹㈡埛绔殑涓绘満鍚嶄负: " + cAddr.getHostName());
-				System.out.println("瀹㈡埛绔鍙ｄ负: " + cPort);
+				System.out.println("接收到客户端信息: " + s);
+				System.out.println("客户端的主机名为: " + cAddr.getHostName());
+				System.out.println("客户端端口为: " + cPort);
 
 				Date d = new Date();
 				outBuffer = d.toString().getBytes();
 				outPacket = new DatagramPacket(outBuffer, outBuffer.length, cAddr, cPort);
-				dSocket.send(outPacket);
-			}		
+				dSocket.send(outPacket); //发送数据报
+			} //while循环结束	
 		}catch(Exception e) {
-			System.err.println("鍙戠敓寮傚父: " + e);
+			System.err.println("发生异常: " + e);
 			e.printStackTrace();
 		}
 	}
