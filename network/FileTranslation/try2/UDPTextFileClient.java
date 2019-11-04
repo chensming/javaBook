@@ -13,8 +13,8 @@ public class UDPTextFileClient
 {
 	public static void main(String[] args)
 	{
-		DatagramSocket ds=null;
-		InputStream is=null;
+		DatagramSocket ds = null;
+		InputStream is = null;
 		try
 		{
 			ds=new DatagramSocket(2000);
