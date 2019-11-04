@@ -20,7 +20,8 @@ public class UdpSend {
 		DataInputStream fis = new DataInputStream(
 				new BufferedInputStream(
 						new FileInputStream(filePath))); 
-		dataSocket = new DatagramSocket(PORT + 1); //避免占用同个端口
+		// dataSocket = new DatagramSocket(PORT + 1); //避免占用同个端口
+		dataSocket = new DatagramSocket(PORT);
 		sendDataByte = new byte[1024]; 
 		int read = 0; 
 		long a = new Date().getTime(); 
