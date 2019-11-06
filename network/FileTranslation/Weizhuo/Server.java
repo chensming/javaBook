@@ -40,7 +40,8 @@ public class Server {
 						
 						int c = 0;
 						while(true) {
-							System.out.println(c++);
+							//看出接收了几次包
+							// System.out.println(c++);
 							uploadPacket = new DatagramPacket(inBuffer,inBuffer.length);
 							dSocket.receive(uploadPacket);	 
 							if(uploadPacket.getLength() == 0)
@@ -76,7 +77,7 @@ public class Server {
 						
 						byte[] downloadBuffer = new byte[1024];
 						int c;
-						int i = 0;
+						// int i = 0;
 						c = fis.read(downloadBuffer);
 						while(c != -1) {
 //							System.out.println(i++);

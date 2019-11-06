@@ -35,11 +35,12 @@ public class Client {
 					dSocket.send(namePacket);
 					
 					
-					
-					int i = 0; //test
+					//test
+					// int i = 0;
 					c = fis.read(uploadBuffer);
 					while(c != -1) {
-						System.out.println(i++);
+						//能在控制台看出发了几次包
+						// System.out.println(i++);
 						DatagramPacket uploadPacket = new DatagramPacket(uploadBuffer,c,sAddr,8000);
 						dSocket.send(uploadPacket);
 						//Thread.sleep(1);
@@ -76,7 +77,7 @@ public class Client {
                     String downloadFileName = "D:/Desktop/vscodeProject/javaProject/javaBook/network/FileTranslation/Weizhuo/Client/" + args[1]; 
 					File target = new File(downloadFileName);
 					FileOutputStream fos = new FileOutputStream(target);
-					c = 0;
+					// c = 0;
 					while(true) {
 //						System.out.println(c++);
 						downloadPacket = new DatagramPacket(outBuffer,outBuffer.length);
