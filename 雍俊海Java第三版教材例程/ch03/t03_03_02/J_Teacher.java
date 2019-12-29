@@ -38,7 +38,7 @@ public class J_Teacher extends J_Employee {
         J_Employee a = new J_Employee();
         a.mb_printInfo();
         a = new J_Teacher();
-        a.mb_printInfo();
+        a.mb_printInfo(); //调用父类的方法
     } // 方法main结束
 } // 类J_Teacher结束
 

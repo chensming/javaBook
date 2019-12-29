@@ -37,7 +37,7 @@ public class J_Student {
         J_Student lisa = new J_Student();
         lisa.mb_setData(2008010428, 18);
         System.out.print("Jack的学号是" + jack.m_id);
-        System.out.println("，年龄是" + jack.m_age);
+        System.out.println("，年龄是" + jack.m_age); //19
         System.out.print("Lisa的学号是" + lisa.m_id);
         System.out.println("，年龄是" + lisa.m_age);
     } // 方法main结束

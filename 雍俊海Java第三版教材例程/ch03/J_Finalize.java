@@ -45,5 +45,9 @@ public class J_Finalize {
     } // 方法main结束
 } // 类J_Finalize结束
 
+//在调用System.gc()的时候，两个示例对象占据的内存被回收，
+// 回收之前,java虚拟机一般会调用两个实例对象的finalize成员方法
+
+
 
 //J_Teacher.java
