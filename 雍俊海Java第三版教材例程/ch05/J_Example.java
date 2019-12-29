@@ -35,3 +35,6 @@ public class J_Example
         System.out.println("数组a的元素之和等于" + s);
     } // 方法main结束
 } // 类J_Example结束
+
+
+//end of this ch

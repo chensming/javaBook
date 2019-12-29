@@ -10,6 +10,8 @@
 //     雍俊海. Java程序设计教程(第3版). 北京: 清华大学出版社. 2014.
 // ////////////////////////////////////////////////////////
 
+import cn.edu.tsinghua.universityOrganization.J_Employee;
+import cn.edu.tsinghua.universityOrganization.J_Teacher;
 
 public class J_University {
     public static void main(String args[]) {

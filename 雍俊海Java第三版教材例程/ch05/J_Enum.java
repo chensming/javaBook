@@ -40,3 +40,6 @@ public class J_Enum
         } // for循环结束
     } // 方法main结束
 } // 类J_Enum结束
+
+
+//J_VectorFor.java

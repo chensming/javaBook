@@ -9,7 +9,7 @@
 // ////////////////////////////////////////////////////////
 // Copyright:
 //     雍俊海. Java程序设计教程(第3版). 北京: 清华大学出版社. 2014.
-
+package cn.edu.tsinghua.universityOrganization;
 
 public class J_Employee {
     public int m_workYear; // 工作的年限

@@ -35,3 +35,6 @@ public class J_AddInterface  <T extends Number>
         System.out.println( b.mb_sum(a1, a2, a3) );
     } // 方法main结束
 } // 类J_AddInterface结束
+
+
+//J_Genericity.java

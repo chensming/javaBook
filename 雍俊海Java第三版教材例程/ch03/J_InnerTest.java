@@ -45,3 +45,14 @@ public class J_InnerTest {
         b.mb_method();
     } // 方法main结束
 } // 类J_InnerTest结束
+
+
+/*输出:
+m_dataOuter=1
+m_dataOuterStatic=2
+m_data=3
+m_dataStatic=4
+mb_methodOuter
+*/
+
+//

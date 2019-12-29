@@ -22,4 +22,4 @@ public class J_CastExample {
     } // 方法main结束
 } // 类J_CastExample结束
 
-J_Boolean.java
+// J_Boolean.java

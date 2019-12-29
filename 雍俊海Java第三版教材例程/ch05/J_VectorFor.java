@@ -34,3 +34,5 @@ public class J_VectorFor
         System.out.println( );
     } // 方法main结束
 } // 类J_VectorFor结束
+
+//J_EnumFor.java

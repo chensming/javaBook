@@ -32,3 +32,6 @@ public class J_EnumFor
         System.out.println( );
     } // 方法main结束
 } // 类J_EnumFor结束
+
+
+//J_Example.java

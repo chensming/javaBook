@@ -12,5 +12,3 @@ J_SSLKeryManager.java
 J_SSLKeryManagerFactory.java
 J_SelfProvider.java
 J_SSLServerAlias.java
-
-

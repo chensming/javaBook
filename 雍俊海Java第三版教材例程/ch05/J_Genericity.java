@@ -48,3 +48,5 @@ public class J_Genericity
         a.mb_methodT( new J_C3( ) );
     } // 方法main结束
 } // 类J_Genericity结束
+
+//J_Enum.java

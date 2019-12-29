@@ -25,3 +25,6 @@ public class J_Add <T>
         System.out.println( b.mb_sum(a1, a2, a3) );
     } // 方法main结束
 } // 类J_Add结束
+
+
+//J_AddInterface.java
