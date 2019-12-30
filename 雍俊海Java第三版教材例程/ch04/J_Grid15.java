@@ -61,8 +61,8 @@ public class J_Grid15 {
         for (i = 0, k = 9; i < m_board.length; i++)
             for (j = 0; j < m_board[i].length; j++, k--)
                 if (m_board[i][j] != k)
-                    return (false);
-        return (true);
+                    return false;
+        return true;
     } // 方法mb_dataEnd结束
 
     // 取下一个数据
@@ -89,8 +89,8 @@ public class J_Grid15 {
         for (i = 1, j = 0; i < digit.length; i++)
             j += digit[i];
         if (j == 9)
-            return (true);
-        return (false);
+            return true;
+        return false;
     } // 方法mb_dataCheckDifferent结束
 
     // 数据检测: 各行和是否为15
@@ -101,9 +101,9 @@ public class J_Grid15 {
             for (j = 0, k = 0; j < m_board[i].length; j++)
                 k += m_board[i][j];
             if (k != 15)
-                return (false);
+                return false;
         } // for循环结束
-        return (true);
+        return true;
     } // 方法mb_dataCheckSumRow结束
 
     // 数据检测: 各列和是否为15
@@ -114,25 +114,25 @@ public class J_Grid15 {
             for (j = 0, k = 0; j < m_board.length; j++)
                 k += m_board[j][i];
             if (k != 15)
-                return (false);
+                return false;
         } // for循环结束
-        return (true);
+        return true;
     } // 方法mb_dataCheckSumColumn结束
 
     private boolean mb_dataCheck() {
         if (!mb_dataCheckDifferent())
-            return (false);
+            return false;
         if (!mb_dataCheckSumRow())
-            return (false);
+            return false;
         if (!mb_dataCheckSumColumn())
-            return (false);
+            return false;
         // 检测对角线之和是否为 15
         if (m_board[0][0] + m_board[1][1] + m_board[2][2] != 15)
-            return (false);
+            return false;
         // 检测对角线之和是否为 15
         if (m_board[0][2] + m_board[1][1] + m_board[2][0] != 15)
-            return (false);
-        return (true);
+            return false;
+        return true;
     } // 方法mb_dataCheck结束
 
     // 求解并输出棋盘问题
