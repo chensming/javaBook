@@ -36,3 +36,10 @@ public class J_WeakHashMap {
         System.out.println("一段时间之后，弱哈希表元素个数是" + ht.size());
     } // 方法main结束
 } // 类J_WeakHashMap结束
+
+
+/*
+在刚添加完数据时，弱哈希表元素个数是800
+key0; key1; .......; key798; key799;
+一段时间之后，弱哈希表元素个数是42
+ */
