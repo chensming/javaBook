@@ -27,5 +27,12 @@ public class J_Intern {
     } // 方法main结束
 } // 类J_Intern结束
 
+/*
+s2==s1
+s3==s1
+s4!=s1
+s5!=s1
+s6==s1
+*/
 
 //J_StringBuffer.java
