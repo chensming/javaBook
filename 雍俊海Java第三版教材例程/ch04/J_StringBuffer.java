@@ -26,5 +26,15 @@ public class J_StringBuffer {
     } // 方法main结束
 } // 类J_StringBuffer结束
 
+/*
+字符串缓冲区的字符序列为"0123"
+字符串缓冲区的长度是4
+字符串缓冲区的容量是20
+
+在调用"b.ensureCapacity(25)"之后
+字符串缓冲区的字符序列为"0123"
+字符串缓冲区的长度是4
+字符串缓冲区的容量是42
+ */
 
 //J_Hashtable.java
