@@ -34,4 +34,11 @@ public class J_Hashtable {
     } // 方法main结束
 } // 类J_Hashtable结束
 
+/*
+在sa数组中，下标为8的字符串是"Liza"
+在sa数组中，"Liza"的下标是8
+ */
+
+
+
 //J_WeakHashMap.java
