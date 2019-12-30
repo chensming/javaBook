@@ -49,4 +49,9 @@ public class J_Genericity
     } // 方法main结束
 } // 类J_Genericity结束
 
+/*
+AB
+*/
+
+
 //J_Enum.java
